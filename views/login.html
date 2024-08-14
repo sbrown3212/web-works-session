@@ -1,1 +1,12 @@
 {% extends 'index.html' %}
+
+{% block body %}
+<h3>Log In</h3>
+
+<form action="/login" method="post">
+    Your Username:
+    <input type="text" name="username">
+
+    <input type="submit">
+</form>
+{% endblock %}
